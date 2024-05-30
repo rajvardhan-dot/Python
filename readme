@@ -1,0 +1,105 @@
+# day 3:
+# modules and pip
+# modules is use to borrow others code
+# two types of modules
+# 1)external : written by user (phone is the example, we dont know implementatio)
+# 2) Built-in modules: install by pip(no need to install externally) these are already present module in python
+# pip install pandas means i want to install a package name pandas, use for data analysis
+# pip is package manager , means whatever things u wnat pip will bring and you can use that.
+
+# day 4:
+
+# a sequence of instruction will get evaluate using python
+
+# day 5:
+# escapse sequence , print , comments
+# \n = escape
+# ctrl + / = for commmet multiple lines
+# \"rajvardhan\" = backslash use to put sentense in a string we can give 
+
+# day 6:
+# about variables: container who hold data
+# int , string , float , double , char, boolean.
+# *concatanation is possible between same type of data type variable
+# *type(a) = use to know the type of variable
+# *sequence data -> list , tuple
+# *list is mutable(can be change) , tuple is immutable(can not change )
+# *list is collection of different data element
+# *dictionary datatype = data will store in key value pair(mapping);
+# ***in python everything is a object***
+
+# day7:
+# Operators:
+# 1)Arithmetic operators
+# 2)Assignment operators
+# 3)Comparison operators
+# 4)Logical operators
+# 5)Identity operators
+# 6)Membership operators
+# 7)Bitwise operators 
+
+# print(15 // 6) : floor division operator means when you want floor value
+# print(15 % 6) : modulus operator means when you want remainder value
+# print(15 ** 6) : power operator means when you want power value
+
+# print("the value of " , a , "+" , b,"is:",a+b) : concatenation
+
+# day8:
+# ***alt+shift+downarrow-> line will replicate***
+# ***alt+shift+uparrow-> line will delete***
+
+# day9:
+# *typecasting: conversion of one datatype to other called typecasting
+# *explicit conversion: when i will do conversion
+# *implicit conversion: when python will do conversion
+# *implicit conversion is not possible in python
+# * according to the level in implicit one datatype convert to other type
+# *pyhton convert smaller datatype to a higher datatype
+# *int to float
+
+# day10:
+# user input
+# *input() function is used to take input from user
+# *input() function will take input as string
+# *int(input()) function will take input as integer
+# *float(input()) function will take input as float
+
+# day11:
+# string in python
+# *string is a sequence of character
+# *no functional difference between single quote and double quote
+
+# types to print string
+# single quote in last and double in between
+# both side double quote
+# both side triple quote to print large para with single and double quote
+# #silicing in string
+# print("hello"[0]) : to print first character
+# #looping in string
+# for i in "hello":
+# print(i) : to print all character
+
+# day12:
+# len() : function
+# slicing : square bracket use for slicing
+# string is immutable
+
+# day13:
+# if else conditional statement in python
+
+# all string function to perform with the str
+# strip(): Removes characters from both ends.
+# lstrip(): Removes characters from the beginning (left side).
+# rstrip(): Removes characters from the end (right side).
+
+#day14:
+if else statement
+
+#day15
+excercise
+
+#day16
+about match case
+
+day17
+about looping statement
