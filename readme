@@ -146,3 +146,114 @@ day23:
     copy()
     insert()
     extend()
+    
+day24:
+    for company program we will use the list
+    in case where we dont want to others change the values 
+    
+day25:
+    how we can manipulate the tuple by using the list
+    tup()
+    temp = list(tup)
+    temp.append()
+    tup = tuple(temp)
+     ex:
+         tup = (1,2,5,6,7,8)
+            temp = list(tup)
+            temp.append(70)
+            tup = tuple(temp)
+            print(tup)
+day26:
+    && in python will be and
+    
+day27:
+    kbc game
+day28:
+    fstring: uses of fstring
+    .2f:use to print value till two decimal place
+    txt = f"for only {price:.2f} dollars!"
+    print(f"hey my name is {{name}}  and I am from {{country}}"): double curly braces use to print as it is
+
+
+***day29***
+ docstring:will use after the declaration of the function, it is use to tell a user about the function that how many argument he needs to give
+ we an not ignore docstring like the comments
+ just after function name we will write docstring
+ 
+ PEP-8:(python enhancement proposal) provide guidelines to coder
+ 
+ zen of python:
+     
+ day30:
+    Recursion:
+        
+day31:
+    sets: is a collection of well defined object
+
+day32: 
+    set function
+    #union all common elements in both the sets , union will return
+    #new set while update will modify the existing set
+    #same for the intersection and intersection update
+    III. symmetric_difference and symmetric_difference_update():same like the union does
+    symmetric_difference: values which are not present in both set
+    IV. difference() and difference_update():
+        difference means:: Elements present on one set, but not on the other.
+        
+    The isdisjoint() method checks if items of given set are present in another set. This method returns False if items are present, else it returns True.
+    
+    issuperset():
+The issuperset() method checks if all the items of a particular set are present in the original set. It returns True if all the items are present, else it returns False.
+
+    issubset():
+The issubset() method checks if all the items of the original set are present in the particular set. It returns True if all the items are present, else it returns False.
+ 
+    add()
+If you want to add a single item to the set use the add() method.
+
+    update()
+If you want to add more than one item, simply create another set or any other iterable object(list, tuple, dictionary), and use the update() method to add it into the existing set
+
+   remove()/discard()
+We can use remove() and discard() methods to remove items form list.
+   
+pop()
+This method removes the last item of the se
+
+del
+del is not a method, rather it is a keyword which deletes the set entirely.
+    
+clear():
+This method clears all items in the set and prints an empty set.
+
+ Check if item exists
+You can also check if an item exists in the set or not.
+
+
+day33:
+    dcintionary
+    
+day34:
+    set unordered and dictionary is unordered
+  popitem():
+The popitem() method removes the last key-value pair from the dictionary.
+pop():
+The pop() method removes the key-value pair whose key is passed as a parameter.
+
+
+clear():
+The clear() method removes all the items from the list.
+update()
+The update() method updates the value of the key provided to it if the item already exists in the dictionary, else it creates a new key-value pai
+
+del:
+we can also use the del keyword to remove a dictionary item.
+
+day35:
+    else with for and while loop
+    
+day36:
+    Exception
+day37:
+    finally:mainly use in program for concluding task
+    

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Rajvardhan/Desktop/Python/day12",
-      "program": "c:/Users/Rajvardhan/Desktop/Python/day12/build/Debug/outDebug",
+      "cwd": "c:/Users/Rajvardhan/Desktop/Python/day36",
+      "program": "c:/Users/Rajvardhan/Desktop/Python/day36/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
