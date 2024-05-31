@@ -103,3 +103,46 @@ about match case
 
 day17
 about looping statement
+
+day 18
+
+day 19
+
+day20:
+    functions:
+        # use of pass in python is to tell program that skip this functiona and go for the next function execution 
+        #later i will write this function
+        #function is use to divide bigger problem into smaller
+functions are two types:
+    built-in: min,max,range,tuples,dict
+    user define: by using def keyword
+
+
+day 21:
+    function argument (how to pass in the function)
+    There are four types of arguments that we can provide in a function:
+
+Default Arguments
+Keyword Arguments
+Variable length Arguments
+Required Arguments
+
+def name(*name): use to store tuple values
+def name(**name):use to store value in the form of dcintionary 
+
+day22:
+    #about list uses
+    #list comprehension
+    #List Comprehension
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+    
+    
+day23:
+    list method
+    sort()
+    reverse()
+    append()
+    index()
+    copy()
+    insert()
+    extend()
