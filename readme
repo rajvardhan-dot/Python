@@ -257,3 +257,102 @@ day36:
 day37:
     finally:mainly use in program for concluding task
     
+    
+    
+day52:
+    lambda function: it's means that we are making variable of a function and using
+    use it only for one liner solution
+    when we pass function as an argument inside another function(most imp use)
+    
+    # In Python, a lambda function is a small anonymous function without a name. It is defined using the lambda keyword and has the following syntax:
+    
+    # lambda arguments: expression
+# Lambda functions are often used in situations where a small function is required for a short period of time. They are commonly used as arguments to higher-order functions, such as map, filter, and reduce.
+     
+     day53:
+     map is a short form to iterate in a list of item and convert them in any other for
+     
+     day54:
+     both are comparesion operator
+     is will compare the exact location of object in the memory 
+     == wil compare the value of the object in the memory
+
+example:
+a = [1,2,3]
+b = [1,2,3]
+print(a is b)#exact location of object(false)
+print(a == b)#value of the object(True)
+
+    day55:
+    game
+    
+    day56:
+    intro to oops and best example is GTA VICE CITY (WORKING OF PLAYER INSIDE THE GAME )
+    class in a blueprint
+    object are real time entity that we will use to make the function
+    
+    day57:
+    example of class
+    class is like a placeholder
+    class is like a template
+    
+    self: means the object for which this method is called, basically current object ko point krta hain
+    
+    
+    day58:
+    
+    in each and every method we need to give a self inside any method
+    constructors called automatically when object create
+    it help initialize the Value
+    it return None
+    
+    
+    day59:
+    Decorators:
+    from word only u can understand that to decorate something, so samething we r doing here decorating the function by modifying the other function
+    it allows you to modify the behavior of function or method 
+    this is the way to ectend the functionality
+    
+    *args: method of tkaing values in the form of tuples
+    **kwargs: method of taking values in the form of dictionary
+    
+    day60:
+    getters (property ka use krke)
+    setters (@the_value ka use krke) #value set ke liye
+    
+    day61:
+    inheritance introduction
+    types:
+    
+    day62:
+    # pass use to create empty class 
+    '''Access specifiers or access modifiers in python programming are used to limit the access of class variables and class methods outside of class while implementing the concepts of inheritance.
+    Public Access Specifier in Python
+    All the variables and methods (member functions) 
+    in python are by default public. Any instance variable in 
+    a class followed by the ‘self’ keyword ie. self.var_name are public accessed.'''
+    
+    In Python, there is no strict concept of "private" access modifiers like in 
+    some other programming languages. However, a convention has been established to indicate that a variable 
+    or method should be considered private by prefixing its name with a double underscore (__). This is known as a "weak internal use indicator" 
+    and it is a convention only, not a strict rule. Code outside the class can still access these "private" variables and methods, but it is generally understood that they should not be accessed or modified.
+    
+    '''It's important to note that the single underscore is 
+    just a naming convention, and does not actually provide any protection or restrict access to the member. 
+    The syntax we follow to make any variable protected is to write variable name followed by a single underscore (_) ie. _varName.'''
+    
+    
+    day65:
+        '''Static methods in Python are methods that belong to a class rather than 
+        an instance of the class. They are defined using the @staticmethod decorator 
+        and do not have access to the instance of the class (i.e. self). They are called on the class itself, 
+        not on an instance of the class. Static methods are often used to create utility functions that don't need access to instance data.'''
+        
+    ek aisa method banana chahte ho ki jo bhi class use kre vo iss method ka use kre
+    
+    day66:
+        instances and class variables
+        Class variables are defined at the class level and are shared among all instances of the class.
+        Instance variables are defined at the instance level and are unique to each instance of the class. They are defined inside the init method and are usually used to store information that is specific to each instance of the class.
+        
+    
