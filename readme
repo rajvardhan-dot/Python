@@ -355,4 +355,144 @@ print(a == b)#value of the object(True)
         Class variables are defined at the class level and are shared among all instances of the class.
         Instance variables are defined at the instance level and are unique to each instance of the class. They are defined inside the init method and are usually used to store information that is specific to each instance of the class.
         
+        
+    day69:
+        class method provide class inside a method , you can directly change the class variable
+        
+    day70:
+        class method as an alternative constructors
+    day71:
+        class method as an alternative
+       
+    '''In Python, there are three built-in functions that are commonly used to get information about objects: dir(), dict, and help().'''
     
+    dir:
+        dir(): The dir() function returns a list of all the attributes and methods (including dunder methods) available for an object. 
+        dict(): The __dict__ attribute returns a dictionary representation of an object's attributes. It is a useful tool for introspection
+        
+    help():
+         help(): The help() function is used to get help documentation for an object, including a description of its attributes and methods
+         
+    day72:
+    when we call method of parent class in child class then we use super keyword
+    super keyword is helpful when u want to call a method from one of the parent classes
+    
+    *The super() keyword in Python is used to refer to the parent class. It is especially useful when a class inherits from multiple parent classes and you want to call a method from one of the parent classes.
+    *The super() keyword is also useful when a class inherits from multiple parent classes.
+    
+    day73:
+    These are special methods that you can define in your classes, and when invoked, they give you a powerful way to manipulate objects and their behaviour
+    Magic methods, also known as “dunders” from the double underscores surrounding their names, are powerful tools that allow you to customize the behaviour of your classes. They are used to implement special methods such as the addition, subtraction and comparison operators, as well as some more advanced techniques like descriptors and properties.
+    
+    '''__init__ method
+The init method is a special method that is automatically invoked when you create a new instance of a class'''
+    
+    '''__str__ and __repr__ methods
+The str and repr methods are both used to convert an object to a string representation. The str method is used when you want to print out an object, while the repr method is used when you want to get a string representation of an object that can be used to recreate the object.'''
+
+'''__len__ method
+The len method is used to get the length of an object. This is useful when you want to be able to find the size of a data structure, such as a list or dictionary.'''
+
+'''__call__ method
+The call method is used to make an object callable, meaning that you can pass it as a parameter to a function and it will be executed when the function is called. This is an incredibly powerful tool that allows you to create objects that behave like functions'''
+
+
+   day74:
+   method overriding
+   
+   day 75:
+   project
+   
+   day76:
+   project
+   
+   day77:
+   operator overloading
+   
+   day78:
+   single inheritance
+   
+   day79:
+   more than one class we use in a program and then we wll call them in the child class from the parent class
+   
+   day80:
+   multilevel
+   
+   day81:
+   Hybrid and hierarchical 
+   
+   day82 and day83:
+   project
+   
+   day84:
+   Time Module
+   
+   day85:
+   command line utility
+   
+   day86:
+   walrus operator:
+   The main purpose of the walrus operator is to allow assignment within expressions. This means you can assign a value to a variable as part of a larger expression, and then use that variable within the same expression.
+
+Here's a more detailed explanation of the walrus operator:
+
+Syntax:
+
+The syntax of the walrus operator is :=.
+It consists of a colon : followed by an equals sign =.
+
+     day87:
+     shutil module
+     
+     day88:
+     project
+     
+     dya89:
+     request module
+     
+     day90:
+     news app
+     
+     day91:
+     Generators
+     ''' One of the main benefits of generators is that they allow you to generate the values on-the-fly, rather than having to create and store the entire sequence in memory. This makes generators a powerful tool for working with large or complex data sets, as you can generate the values as you need them, rather than having to store them all in memory at once.'''
+     
+     day92:
+     '''Function caching is a technique for improving the performance of a program by storing the results of a function call so that you can reuse the results instead of recomputing them every time the function is called. This can be particularly useful when a function is computationally expensive, or when the inputs to the function are unlikely to change frequently.'''
+     
+     day93:
+     project
+     
+     day94:
+     project
+     
+     day95:
+     Regular expressions
+     
+     day96:
+     Async IO in Python
+Asynchronous I/O, or async for short, is a programming pattern that allows for high-performance I/O operations in a concurrent and non-blocking manner. In Python, async programming is achieved through the use of the asyncio module and asynchronous functions.
+     
+     
+     day97:
+     jab parallely data download krna ho toh multhreading use krte hain
+     Multithreading in Python
+Multithreading is a technique in programming that allows multiple threads of execution to run concurrently within a single process. In Python, we can use the threading module to implement multithreading. In this tutorial, we will take a closer look at the threading module and its various functions and how they can be used in Python.
+
+
+     day98:
+     Multiprocessing
+     '''Multiprocessing in Python
+Multiprocessing is a Python module that provides a simple way to run multiple processes in parallel. It allows you to take advantage of multiple cores or processors on your system and can significantly improve the performance of your code. In this repl, we'll take a closer look at the multiprocessing module and its various functions and how they can be used in Python.'''
+     
+     day99:
+         project
+    
+    day100;
+    THANK YOU
+     
+     
+     
+ 
+   
+   
